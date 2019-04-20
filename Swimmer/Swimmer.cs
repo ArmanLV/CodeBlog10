@@ -39,7 +39,7 @@ namespace Swimmer
             Console.WriteLine($"{SwimmerOne.Name} {SwimmerOne.Surname} проплыл {SwimmerOne.Distance}м видом {SwimmerOne.SwimmingWay} за {SwimmerOneTime} секунд");
             Console.WriteLine($"{SwimmerTwo.Name} {SwimmerTwo.Surname} проплыл {SwimmerTwo.Distance}м видом {SwimmerTwo.SwimmingWay} за {SwimmerTwoTime} секунд");
 
-            // Обьявление попедителя
+            // Обьявление победителя
             if (SwimmerOneTime < SwimmerTwoTime)
             {
                 Console.WriteLine($"Победил {SwimmerOne.Name} {SwimmerOne.Surname} с отрывом в {SwimmerTwoTime - SwimmerOneTime} секунд!");
